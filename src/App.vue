@@ -44,6 +44,8 @@ const determineWinner = () => {
       <p>Player Choice: <span class="choice-text"> <strong>{{ playerChoice || 'None' }}</strong> </span></p>
       <p>Computer Choice: <span class="choice-text"> <strong>{{ computerChoice || 'None' }}</strong> </span></p>
       <p class="outcome">{{ result }}</p>
+
+      
     </div>
   </div>
 </template>
@@ -60,6 +62,7 @@ const determineWinner = () => {
   font-size: 16px;
   cursor: pointer;
   background-color: rgb(244, 242, 157);
+  color: blue;
 }
 .choice-text {
 
